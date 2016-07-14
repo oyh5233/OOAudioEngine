@@ -8,13 +8,10 @@ s.homepage = 'https://github.com/oyh5233/OOAudioEngine'
 s.author   = { 'oyh5233' => 'oyh5233@outlook.com' }
 s.source   = { :git => 'https://github.com/oyh5233/OOAudioEngine.git',
 :tag => "#{s.version}" }
-
-s.description = 'asynchronous audio Engine based on audio unit.'
-
+s.description = 'A leaner audio Engine based on audio unit.easy to use'
 s.requires_arc   = true
-
 s.ios.deployment_target = '7.0'
-
 s.source_files = 'OOAudioEngine/Classes/*.{h,m}'
-s.frameworks = 'AVFoundation'
+s.framework = 'AVFoundation'
+
 end
