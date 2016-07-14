@@ -192,6 +192,7 @@
 		CF9196161D3727220073A6E6 /* SKP_Silk_tables_NLSF_CB1_10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_tables_NLSF_CB1_10.h; sourceTree = "<group>"; };
 		CF9196171D3727220073A6E6 /* SKP_Silk_tables_NLSF_CB1_16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_tables_NLSF_CB1_16.h; sourceTree = "<group>"; };
 		CF9196181D3727220073A6E6 /* SKP_Silk_tuning_parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_tuning_parameters.h; sourceTree = "<group>"; };
+		CFA407601D372AB900B90376 /* OOAudioEngine.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OOAudioEngine.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +217,7 @@
 		CF9192981D3724380073A6E6 = {
 			isa = PBXGroup;
 			children = (
+				CFA407601D372AB900B90376 /* OOAudioEngine.podspec */,
 				CF9192A41D3724380073A6E6 /* OOAudioEngine */,
 				CF91948E1D3726D40073A6E6 /* Test */,
 				CF9192A31D3724380073A6E6 /* Products */,
@@ -2901,6 +2903,7 @@
 				CF9192AC1D3724380073A6E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF9194A11D3726D40073A6E6 /* Build configuration list for PBXNativeTarget "Test" */ = {
 			isa = XCConfigurationList;
@@ -2909,6 +2912,7 @@
 				CF9194A31D3726D40073A6E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
