@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  OOAudioEngine
+//  Test
 //
-//  Created by oo on 15/12/4.
-//  Copyright © 2015年 oo. All rights reserved.
+//  Created by oo on 16/7/14.
+//  Copyright © 2016年 oyh5233. All rights reserved.
 //
 
 #import "AppDelegate.h"

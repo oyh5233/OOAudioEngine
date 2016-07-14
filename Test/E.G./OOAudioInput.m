@@ -186,7 +186,7 @@ OSStatus liveInputCallback (__unsafe_unretained OOAudioInput     *THIS,
         _silk_length=1024;
         result=SKP_Silk_SDK_Encode(self.silk_encoder_state, self.silk_encoder_control, data, frame_num, self.silk_out, &_silk_length);
         if(result!=noErr){
-            NSLog(@"silk_error:%d",result);
+            NSLog(@"silk_error:%d",(int)result);
         }
         [self.f4 writeData:[NSData dataWithBytes:&_silk_length length:sizeof(short)]];
         [self.f4 writeData:[NSData dataWithBytes:self.silk_out length:self.silk_length]];

@@ -616,9 +616,10 @@ static OSStatus outputCallback(void *inRefCon, AudioUnitRenderActionFlags *ioAct
                 dispatch_barrier_async(dispatch_get_main_queue(), ^{
                     NSError *error=nil;
                     if (didChoose) {
-                        error=[NSError errorWithDomain:NSStringFromClass(self.class) code:OOAudioEngineErrorCodeInputPermissionRefused userInfo:@{NSLocalizedDescriptionKey:@"user should choose if allow app to record!"}];
-                    }else{
                         error=[NSError errorWithDomain:NSStringFromClass(self.class) code:OOAudioEngineErrorCodeInputRequirePermission userInfo:@{NSLocalizedDescriptionKey:@"user refuse to allow app to record!"}];
+ 
+                    }else{
+                       error=[NSError errorWithDomain:NSStringFromClass(self.class) code:OOAudioEngineErrorCodeInputPermissionRefused userInfo:@{NSLocalizedDescriptionKey:@"user should choose if allow app to record!"}];
                     }
                     complete(error);
                 });
