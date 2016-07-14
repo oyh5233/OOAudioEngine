@@ -193,6 +193,8 @@
 		CF9196171D3727220073A6E6 /* SKP_Silk_tables_NLSF_CB1_16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_tables_NLSF_CB1_16.h; sourceTree = "<group>"; };
 		CF9196181D3727220073A6E6 /* SKP_Silk_tuning_parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKP_Silk_tuning_parameters.h; sourceTree = "<group>"; };
 		CFA407601D372AB900B90376 /* OOAudioEngine.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OOAudioEngine.podspec; sourceTree = "<group>"; };
+		CFA407611D372C2000B90376 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CFA407621D372C2000B90376 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,8 @@
 		CF9192981D3724380073A6E6 = {
 			isa = PBXGroup;
 			children = (
+				CFA407611D372C2000B90376 /* LICENSE */,
+				CFA407621D372C2000B90376 /* README.md */,
 				CFA407601D372AB900B90376 /* OOAudioEngine.podspec */,
 				CF9192A41D3724380073A6E6 /* OOAudioEngine */,
 				CF91948E1D3726D40073A6E6 /* Test */,
